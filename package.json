@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+<<<<<<< HEAD
   "dependencies": {
     "lodash": "^4.17.15",
     "normalize.css": "^8.0.1"
   },
   "devDependencies": {},
+=======
+>>>>>>> f8ad61e60cd4941202b0282240516437f8d6d366
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +24,13 @@
   "bugs": {
     "url": "https://github.com/NSSAUND/travel-site/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/NSSAUND/travel-site#readme"
+=======
+  "homepage": "https://github.com/NSSAUND/travel-site#readme",
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "normalize.css": "^8.0.1"
+  }
+>>>>>>> f8ad61e60cd4941202b0282240516437f8d6d366
 }
