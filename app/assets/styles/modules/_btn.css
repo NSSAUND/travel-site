@@ -1,16 +1,18 @@
 .btn{
-    background-color: #2f5572;
+    background-color: $mainBlue;
     color: #FFF;
     text-decoration: none;
     padding: .75rem  1.2rem;
     display: inline-block;
-
-&--orange{
-    background-color: orange;
+}
+.btn--orange{
+    background-color: $mainOrange;
 
 }
-&--large{
-    font-size: 1.25rem;
-    padding: 1.1rem 1.9rem;
-}
+.btn--large{
+     padding: 1.1rem 1.9rem;
+     font-size: 1rem;
+         @media(min-width: 530px){
+        font-size: 1.25rem;
+    }
 }

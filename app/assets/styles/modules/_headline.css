@@ -1,0 +1,39 @@
+.headline{
+    font-size: 1.9rem;
+    font-weight: 300;
+    color: #2f5572;
+
+    @media(min-width: 530px){
+        font-size: 2.875rem;
+    }
+}
+
+.headline--centered{
+    text-align: center;
+}
+.headline--orange{
+    color: #d59541;
+}
+.headline--small{
+    font-size: 1.2rem;
+    @media(min-width: 530px){
+        font-size: 1.875rem;
+    }
+}
+.headline--narrow{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.headline--light{
+    font-weight: 100;
+}
+.headline--b-margin-small{
+    margin-bottom: .5em;
+}
+.headline--b-margine-large{
+    margin-bottom: 1.6em;
+}
+.headline--no-t-margin{
+    margin-top: 0;
+}
