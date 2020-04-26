@@ -4,12 +4,19 @@
        clear: both;
        display: table;
 }
-.row--gutter{
+.row--gutters{
     padding-right:-65px;
+}
+
+.row--gutters-large{
+    margin-right: -100px;
 }
 .row--gutters > div{
     padding-right: 65px;
+}
+.row--gutters-large > div{   /* > her stands for direct children of div */
 
+padding-right:100px;
 }
 @media(min-width:530px){
 .row__medium-4{
@@ -23,6 +30,11 @@
 }
 .row__medium-4-larger{
     width: 37%;
+}
+.row__medium-6{
+    float: left;
+    width: 50%;
+
 }
 .row__medium-8-smaller{
     width: 63%;
