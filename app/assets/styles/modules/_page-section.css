@@ -1,10 +1,36 @@
 .page-section{
     padding: 1.2rem 0;
+
     @media(min-width: 530px){
-    padding: 4.5rem 0;
+       padding: 4.5rem 0;
+    }
+}
+.page-section--no-b-padding-until-medium{
+    padding-bottom: 0;
+    @media(mid-width:530px){
+        padding-bottom:4.5rem;
+        
+    }
+}
+
+.page-section--no-b-padding-until-large{
+    padding-bottom: 0;
+    @media(mid-width:1020px){
+        padding-bottom:4.5rem;
+        
     }
 }
 .page-section--blue{
     background-color:#2f5574;
     color: #FFF;
+}
+.page-section--testimonials{
+    background-color: #e0e6ef;
+ 
+
+@media(min-width: 1080px){
+    background: url('/assets/images/testimonials-bg.jpg') top center no-repeat;
+    background-size: cover;
+  
+}
 }

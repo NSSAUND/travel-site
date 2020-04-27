@@ -5,8 +5,8 @@
  @media (min-width: 530px){
      font-size: 3.75rem;
  }
-
- strong{
+}
+ .strong{
      font-weight: 500;
  }
     
@@ -18,10 +18,15 @@
      margin-bottom: .6rem;
 
      @media (min-width:530px){
+        position: relative;
+        top: 8px;
         margin-right: .5rem;
         margin-left: 0;
         margin-bottom: 0;
         display: inline-block;
      }
- }
-}
+    }
+    .section-title--blue{
+         color: #2f5572;
+     }
+ 

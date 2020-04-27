@@ -1,6 +1,8 @@
 .feature-item {
    position: relative;
    padding-bottom: 2.5rem;
+   padding-left: 1rem;
+   padding-right: 1rem;
 
  @media(min-width: 540px){
     padding-left: 94px;

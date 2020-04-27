@@ -11,10 +11,27 @@
     max-width:976px;
 }
 
-.wrapper{
-    padding-left: 0;
-    padding-right: 0;
+
+.wrapper--no-padding-until-medium{
+    padding-left:0;
+    padding-right:0;
+
+    @media(min-width:530px){
+        padding-left:18px;
+        padding-right:18px;
+    }
 }
+
+.wrapper--no-padding-until-large{
+    padding-left:0;
+    padding-right:0;
+
+    @media(min-width:1080px){
+        padding-left:18px;
+        padding-right:18px;
+    }
+}
+
 .wrapper--b-margin{
     margin-bottom: 1rem;
     @media(min-width: 530px){
