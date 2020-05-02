@@ -51,8 +51,13 @@
     top: 10px;
     right: 10px;
     z-index: 10;
+<<<<<<< HEAD
 }
 .site-header__menu-icon__top{
+=======
+
+    .site-header__menu-icon__top{
+>>>>>>> header
       position: absolute;
       top: 0;
       left: 0;
@@ -88,7 +93,11 @@
         display: none;
     }
 }
+<<<<<<< HEAD
 
+=======
+}
+>>>>>>> header
 .site-header__menu-icon--close-x{
 
     .site-header__menu-icon__top {

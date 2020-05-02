@@ -6,6 +6,7 @@
     display: block;
 }
 .large-hero__text-content{
+    padding-top: 50px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -18,9 +19,9 @@
     font-weight: 300;
     color: #2f5572;   
     margin: 0;
-    font-size: 2.4rem;
+    font-size: 1.5rem;
 
-    @media (min-width: 530px) {
+    @media (min-width: 540px) {
         font-size: 4.8rem;}
 
     }
@@ -29,22 +30,23 @@
     font-weight: 300;
     color: #2f5572;
     margin: 0;
-    font-size: 1.5rem;
+    font-size: .95rem;
 
-    @media (min-width: 530px) {
+    @media (min-width: 540px) {
         font-size: 2.9rem;
     }
 }
 .large-hero__description{
     color: #FFF;
-    font-size: 1.1rem;
-    font-weight: 50rem;
+    font-size: .8rem;
+    font-weight: 100;
     text-shadow: 2px 2px 0 rgba(0, 0, 0, .1);
-    max-width: 20rem;
+    max-width: 12rem;
     margin-left: auto;
     margin-right: auto;
 
     @media(min-width: 530px){
-        font-size: 1.875rem
+        font-size: 1.875rem;
+        max-width: 35rem;
     }
 }
