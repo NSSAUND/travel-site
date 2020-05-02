@@ -36,7 +36,6 @@ padding-right:100px;
 .row__large-4{
     float: left;
     width: 33.33%;
-
 }
 
 .row__medium-4-larger{
@@ -105,7 +104,6 @@ padding-top: 80px;
         float: none;
         display: flex;
     
-
     }
 @media(min-width:1080px){
     display: flex;
