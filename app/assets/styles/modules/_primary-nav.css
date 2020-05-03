@@ -5,12 +5,12 @@
     @media(min-width: 840px){
         padding-top: 0;
     }
-
-    &--pull-right{
+}
+    .primary-nav--pull-right{
         
         @media(min-width: 540px){
             float: right;
-        }
+        
     }
     ul{
         margin: 0;
@@ -27,6 +27,7 @@
             display: block;
             padding-right: 20px;
         }
+    }
     }
     li:last-child{
         padding-right:0;
@@ -48,6 +49,5 @@
             padding: 12px 0;
             background-color: transparent;
         }
-        
     }
-}
+    

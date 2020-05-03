@@ -7,10 +7,11 @@
         margin-bottom: 0;
         padding: 0 1.8125rem 1px 1.8125rem;
     }
+}
 .testimonials--last{
     margin-bottom: 0;
 }
-}
+
 .testimonials__photo{
     border-radius: 80px;
     overflow: hidden;
