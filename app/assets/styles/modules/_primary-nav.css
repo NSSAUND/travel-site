@@ -28,7 +28,7 @@
             padding-right: 20px;
         }
     }
-    }
+    
     li:last-child{
         padding-right:0;
 
@@ -46,8 +46,13 @@
         background-color: rgba(#2f5572, .5);
 
         @media(min-width: 840px){
+            font-size: 1rem;
             padding: 12px 0;
             background-color: transparent;
+            
+            &.is-current-link{
+                color: #faab69;
+            }
         }
     }
-    
+}

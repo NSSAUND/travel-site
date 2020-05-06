@@ -5,17 +5,18 @@
     z-index: 2;
     transition: background-color .3s ease-out;
 
-    @media(min-width: 840px){
-    background-color: rgba(#2f5572, .3); /* to fade in the blue background color*/
-    }
-}
-.site-header--is-expanded {
+    &--is-expanded {
         background-color: rgba(#2f5572, 0.55);
-
-    @media(min-width: 840px){
-        
-        background-color: rgba(#2f5572, .3);
     
+    }
+    @media(min-width: 840px){
+    position: fixed;
+    background-color: rgba(#2f5572, .3); /* to fade in the blue background color*/
+    
+
+        &--dark {
+          background-color: rgba(23, 51, 72, .85);
+    }   
 }
 }
 .site-header__btn-container{
@@ -28,6 +29,7 @@
     position: absolute;
     top: 0;
     left: 50%;
+    transition: transform .3s ease-out;
     transform: translateX(-50%) scale(.8);
     transform-origin: 50% 0;
     background-color: #2f5572;
@@ -37,7 +39,12 @@
         left: auto;
         transform: translateX(0);
         padding: 25px 36px;
+    
+
+    .site-header--dark &{
+            transform: scale(.55);
     }
+}    
 }
 
 .site-header__graphic{
@@ -52,8 +59,7 @@
     right: 10px;
     z-index: 10;
 }
-.site-header__menu-icon__top{
-}
+
     .site-header__menu-icon__top{
       position: absolute;
       top: 0;
@@ -86,25 +92,29 @@
         transform-origin: 0 70%;
         transition: transform .3s ease-out;
 
-    @media(min-width: 840px){
-        display: none;
-    }
-}
+         @media(min-width: 840px){
+            display: none;
+        }
+        }
 
-.site-header__menu-icon--close-x{
+    .site-header__menu-icon--close-x{
 
-    .site-header__menu-icon__top {
+        .site-header__menu-icon__top {
         transform: rotate(45deg) scaleX(1.25);
-    }
-    .site-header__menu-icon__middle{
+        }
+        .site-header__menu-icon__middle{
         opacity: 0;
         transform: scaleX(0);
-    }
+        }
 
     .site-header__menu-icon__bottom {
         transform: rotate(-45deg) scaleX(1.25) translateY(0);
     }
-}
+
+    @media(min-width: 840px){
+        display: none;
+    }
+    }
 
 .site-header__menu-content{
     opacity: 0;

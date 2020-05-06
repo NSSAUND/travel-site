@@ -5,7 +5,6 @@ class RevealOnScroll {
     constructor(els, thresholdPercent) {
       this.thresholdPercent = thresholdPercent
       this.itemsToReveal = els
-      
       this.browserHeight = window.innerHeight
       this.hideInitially()
       this.scrollThrottle = throttle(this.calcCaller, 200).bind(this)
@@ -20,6 +19,7 @@ class RevealOnScroll {
           this.browserHeight = window.innerHeight
       }, 333))
     }
+
 
     calcCaller(){
         console.log("Scroll Function ran")
@@ -44,7 +44,7 @@ class RevealOnScroll {
     }
 }
     hideInitially() {
-      this.itemsToReveal.forEach(el =>{
+      this.itemsToReveal.forEach(el => {
       el.classList.add("reveal-item")
       el.isRevealed = false
     })
