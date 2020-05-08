@@ -5,7 +5,7 @@
     z-index: 2;
     transition: background-color .3s ease-out;
 
-    &--is-expanded {
+    .site-header--is-expanded {
         background-color: rgba(#2f5572, 0.55);
     
     }
@@ -16,7 +16,7 @@
 
         &--dark {
           background-color: rgba(23, 51, 72, .85);
-    }   
+      
 }
 }
 .site-header__btn-container{
@@ -137,5 +137,6 @@
         opacity: 1;
         z-index: 1;
         transform: scale(1);
-}
+    }
+    }
 }
